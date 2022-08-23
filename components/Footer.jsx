@@ -2,14 +2,6 @@ import React from 'react'
 import{
     CheckCircleIcon,
 } from "@heroicons/react/outline"
-import { 
-    CheckCircleIcon,
-    CheckCircleIcon,
-    CheckCircleIcon,
-    CheckCircleIcon,
-    CheckCircleIcon,
-    CheckCircleIcon
-} from "react-icons/ti"
 
 function Footer() {
   return (
