@@ -3,12 +3,12 @@ import{
     CheckCircleIcon,
 } from "@heroicons/react/outline"
 import { 
-    TiSocialTwitter,
-    TiSocialSkype,
-    TiSocialInstagram,
-    TiSocialGithub,
-    TiSocialFacebookCircular,
-    TiSocialLinkedin
+    CheckCircleIcon,
+    CheckCircleIcon,
+    CheckCircleIcon,
+    CheckCircleIcon,
+    CheckCircleIcon,
+    CheckCircleIcon
 } from "react-icons/ti"
 
 function Footer() {
@@ -19,22 +19,22 @@ function Footer() {
         <p className='font-bold'>با من در ارتباط باشید</p>
         <div className='ml-44 grid mt-10 grid-cols-3 grid-rows-2'>
             <a href='#' className='rounded-xl w-44 h-44 border-white border-2 flex justify-center shadow-xl shadow-white active:shadow-none'>
-               <TiSocialTwitter size={100} className="mt-8"/>
+               <CheckCircleIcon size={100} className="mt-8"/>
             </a >
             <a href='#' className='rounded-xl w-44 h-44 border-white border-2 flex justify-center shadow-xl shadow-white active:shadow-none'>
-                <TiSocialSkype size={100} className="mt-8"/>
+                <CheckCircleIcon size={100} className="mt-8"/>
             </a >
             <a  href='#' className='rounded-xl w-44 h-44 border-white border-2 flex justify-center shadow-xl shadow-white active:shadow-none'>
-                <TiSocialInstagram size={100} className="mt-8"/>
+                <CheckCircleIcon size={100} className="mt-8"/>
             </a >
             <a href='#' className='rounded-xl w-44 h-44 mt-10 border-white border-2 flex justify-center shadow-xl shadow-white active:shadow-none'>
-                <TiSocialLinkedin size={100} className="mt-8"/>
+                <CheckCircleIcon size={100} className="mt-8"/>
             </a >
             <a href='#' className='rounded-xl w-44 h-44 mt-10 border-white border-2 flex justify-center shadow-xl shadow-white active:shadow-none'>
-                <TiSocialFacebookCircular size={100} className="mt-8"/>
+                <CheckCircleIcon size={100} className="mt-8"/>
             </a >
             <a href='#' className='rounded-xl w-44 h-44 mt-10 mb-5 border-white border-2 flex justify-center shadow-xl shadow-white active:shadow-none'>
-                <TiSocialGithub size={100} className="mt-8"/>
+                <CheckCircleIcon size={100} className="mt-8"/>
             </a >
         </div>
         <div className='grid grid-cols-2 border-white w-fit border-4 m-auto rounded-xl mt-20'>
