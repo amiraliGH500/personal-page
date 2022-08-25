@@ -3,7 +3,12 @@ import{
     CheckCircleIcon,
 } from "@heroicons/react/outline"
 import {
-    BsGithub
+    BsGithub,
+    BsWhatsapp,
+    BsInstagram,
+    BsLinkedin,
+    BsSkype,
+    BsTelegram
 }from "react-icons/bs"
 
 function Footer() {
@@ -15,22 +20,22 @@ function Footer() {
         <p className='font-bold'>با من در ارتباط باشید</p>
         <div className='ml-44 grid mt-10 grid-cols-3 grid-rows-2'>
             <a href='#' className='rounded-xl w-44 h-44 border-white border-2 flex justify-center shadow-xl shadow-white active:shadow-none'>
-               <BsGithub size={100} className="mt-3"/>
+               <BsGithub size={100} className="mt-9"/>
             </a >
             <a href='#' className='rounded-xl w-44 h-44 border-white border-2 flex justify-center shadow-xl shadow-white active:shadow-none'>
-                <CheckCircleIcon size={100} className="mt-3"/>
+                <BsWhatsapp size={100} className="mt-9"/>
             </a >
             <a  href='#' className='rounded-xl w-44 h-44 border-white border-2 flex justify-center shadow-xl shadow-white active:shadow-none'>
-                <CheckCircleIcon size={100} className="mt-3"/>
+                <BsInstagram size={100} className="mt-9"/>
             </a >
             <a href='#' className='rounded-xl w-44 h-44 mt-10 border-white border-2 flex justify-center shadow-xl shadow-white active:shadow-none'>
-                <CheckCircleIcon size={100} className="mt-3"/>
+                <BsLinkedin size={100} className="mt-9"/>
             </a >
             <a href='#' className='rounded-xl w-44 h-44 mt-10 border-white border-2 flex justify-center shadow-xl shadow-white active:shadow-none'>
-                <CheckCircleIcon size={100} className="mt-3"/>
+                <BsSkype size={100} className="mt-9"/>
             </a >
             <a href='#' className='rounded-xl w-44 h-44 mt-10 mb-5 border-white border-2 flex justify-center shadow-xl shadow-white active:shadow-none'>
-                <CheckCircleIcon size={100} className="mt-3"/>
+                <BsTelegram size={100} className="mt-9"/>
             </a >
         </div>
         <div className='grid grid-cols-2 border-white w-fit border-4 m-auto rounded-xl mt-20'>
